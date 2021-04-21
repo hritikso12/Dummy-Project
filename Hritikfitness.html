@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hritik Fitness</title>
+</head>
+<link rel="stylesheet" href="/style.css"> 
+<body>
+    <style>
+        /* css reset  */
+   body{
+    font-family: 'Baloo Bhai 2', cursive;
+       color: white;
+       margin: 0px;
+       padding:0px;
+       background: url('img/gymboy2.jpg.jpg');
+       cursor: url("/img/cur.png"), url("/img/cur.cur");
+       }
+     /* .header{
+         background-color: rgb(32, 29, 3); 
+     }   */
+    .left{
+        border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        /* width: 136px; */
+
+    }
+    .left div{
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+    }
+    .mid{
+         /* border: 2px solid green; */
+         display: block;
+         width: 40%;
+         margin: 22px auto;
+         font-size: 30px;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        font-size: 40px;
+        
+
+    } 
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        
+        
+    }  
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 50px;
+    
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        width: 250px;
+        filter: invert(100%);
+    }
+   .btn{
+       margin: 0px 9px;
+       color: white;
+       background-color: black;
+       padding: 10px 11px;
+       border: 2px solid grey;
+       border-radius: 10px;
+       cursor: pointer;
+       font-size: 20px;
+   }
+   .btn:hover{
+       background-color: rgb(136, 9, 9);
+   }
+   .container{
+       /* border: 2px solid white; */
+       margin: 139px 138px;
+       padding: 75px;
+       width: 33%;
+       border-radius: 28px;
+   }
+   .form-group input{
+    text-align: center;
+    display: block;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: xx-large;
+    width: 508px;
+    padding: 1px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+
+   }
+   .container h1{
+       text-align: center;
+   }
+   .container button{
+    text-align: center;
+    display: block;
+    width: 56%;
+    padding: 2px;
+    margin: 22px auto;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    cursor: pointer;
+
+   }
+   .container button:hover{ 
+    background-color: rgb(136, 9, 9);
+        }
+    </style>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+          <img src="img/logo1.jpeg" alt="">
+          <div>Hritik Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+          Join the Best GYM of Delhi  
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name"> </div>   
+         
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age"> </div>   
+         
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender"> </div>   
+         
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locality"> </div>   
+            <div>
+         
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Phone Number"> </div>   
+            <div>
+         
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email"> </div>   
+            <div>
+                <button class="button">Submit</button>  
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
